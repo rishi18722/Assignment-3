@@ -1,0 +1,64 @@
+
+#1
+num=int(input("Enter the number:"))
+b=bin(num)
+c=b.replace('0b','')
+print("The binary equivalent is:",c)
+
+#2
+a=input("Enter the expression:")
+b=eval(a)
+print(b)
+
+#3(a)
+a=(3+4)*(5)
+print(a)
+
+#3(b)
+n=int(input('Enter the number:'))
+b=(n*(n-1))/2
+print(b) 
+
+#3(c)
+import math
+r=int(input('Enter the number:'))
+c=4*math.pi*(r**2)
+print(c)
+
+#3(d)
+import math
+r=int(input('Enter the number:'))
+a=int(input('Enter the angle:'))
+d=math.sqrt((r*(math.cos(a))**2) +(r*(math.sin(a))**2))
+print(d)
+
+#3(e)
+x=int(input('Enter the 1st number:'))
+y=int(input('Enter the 2nd number:'))
+e=(y*2-y*1)/(x*2-x*1)
+print(e)
+
+#4(a)
+i=0
+for i in range(5):
+ print (i) 
+
+#4(b)
+i=0
+for i in range(3,10):
+ print (i)
+
+#4(c)
+i=0
+for i in range(4,13,3):
+ print (i)
+
+#4(d)
+i=0
+for i in range(15,5,-2):
+ print (i)
+
+#4(e)
+i=0
+for i in range(5,3):
+ print (i)
